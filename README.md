@@ -9,6 +9,7 @@ The structure is loosely based on https://github.com/keylase/nvidia-patch
 
 Requirements:
 - DiskStation Manager 6 or higher
+- Your serial number must be in the proper format (e.g. XXXXPDNXXXXXX for DS918+, XXXXLWNXXXXXX for DS3617xs, XXXXODNXXXXXX for 3615xs)
 - x86-64 based 
 - SSH/Terminal Access
 - sudo/root
