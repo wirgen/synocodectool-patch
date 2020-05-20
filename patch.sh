@@ -39,6 +39,11 @@ declare -a binpath_list=()
 declare -a path_list=(
     "/usr/syno/bin"
     "/volume1/@appstore/VideoStation/bin"
+    "/volume2/@appstore/VideoStation/bin"
+    "/volume3/@appstore/VideoStation/bin"
+    "/volume1/@appstore/MediaServer/bin/"
+    "/volume2/@appstore/MediaServer/bin/"
+    "/volume3/@appstore/MediaServer/bin/"    
 )
 
 declare -a versions_list=(
