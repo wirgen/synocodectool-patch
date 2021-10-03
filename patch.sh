@@ -323,11 +323,11 @@ rollback () {
                     echo "Backup restored successfully (DSM ${binhash_version_list[$backup_hash]})"
                     exit 0
                 else
-                    echo "No valid backup found for patched synocodectool currently in use. You can download the original file for DSM ${binhash_version_list[$original_hash]}  from https://github.com/likeadoc/synocodectool-patch/."
+                    echo "No valid backup found for patched synocodectool currently in use. You can download the original file for DSM ${binhash_version_list[$original_hash]}  from https://github.com/stl88083365/synocodectool-patch/."
                     exit 1
                 fi
         else
-            echo "No backups found for patched synocodectool currently in use. You can download the original file for DSM ${binhash_version_list[$original_hash]}  from https://github.com/likeadoc/synocodectool-patch/."
+            echo "No backups found for patched synocodectool currently in use. You can download the original file for DSM ${binhash_version_list[$original_hash]}  from https://github.com/stl88083365/synocodectool-patch/."
             exit 1
         fi
     elif [[ "${binhash_version_list[$synocodectool_hash]+isset}" ]]; then
@@ -346,11 +346,11 @@ rollback () {
                 echo "Backup restored successfully (DSM ${binhash_version_list[$backup_hash]})"
                 exit 0
             else
-                echo "Not a valid backup. You can either try restoring another backup or download the original file for DSM $dsm_version from https://github.com/likeadoc/synocodectool-patch/."
+                echo "Not a valid backup. You can either try restoring another backup or download the original file for DSM $dsm_version from https://github.com/stl88083365/synocodectool-patch/."
                 exit 1
             fi
         else
-            echo "No backups found. You can download the original file for DSM $dsm_version from https://github.com/likeadoc/synocodectool-patch/."
+            echo "No backups found. You can download the original file for DSM $dsm_version from https://github.com/stl88083365/synocodectool-patch/."
             exit 1
         fi
     fi        
