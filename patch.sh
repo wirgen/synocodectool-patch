@@ -41,6 +41,7 @@ declare -a binpath_list=()
 
 declare -a path_list=(
     "/usr/syno/bin"
+    "/var/packages/CodecPack/target/bin"
     "/volume1/@appstore/VideoStation/bin"
     "/volume2/@appstore/VideoStation/bin"
     "/volume3/@appstore/VideoStation/bin"
