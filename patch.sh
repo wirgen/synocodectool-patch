@@ -50,6 +50,9 @@ declare -a path_list=(
     "/volume1/@appstore/SurveillanceStation/bin/"
     "/volume2/@appstore/SurveillanceStation/bin/"
     "/volume3/@appstore/SurveillanceStation/bin/"
+    "/volume1/@appstore/CodecPack/bin/"
+    "/volume2/@appstore/CodecPack/bin/"
+    "/volume3/@appstore/CodecPack/bin/"
 )
 
 declare -a versions_list=(
