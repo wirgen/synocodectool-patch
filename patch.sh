@@ -53,6 +53,9 @@ declare -a path_list=(
     "/volume1/@appstore/CodecPack/bin"
     "/volume2/@appstore/CodecPack/bin"
     "/volume3/@appstore/CodecPack/bin"
+    "/volume1/@appstore/AudioStation/bin"
+    "/volume2/@appstore/AudioStation/bin"
+    "/volume3/@appstore/AudioStation/bin"
 )
 
 declare -a versions_list=(
