@@ -49,7 +49,7 @@ Examples are provided for DSM Version 6.2.2 24992-6
 
 
 ```bash
-wget https://raw.githubusercontent.com/likeadoc/synocodectool-patch/master/patch.sh
+wget https://raw.githubusercontent.com/dmc31a42/synocodectool-patch/master/patch.sh
 chmod +x patch.sh
 ```
 
