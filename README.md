@@ -24,7 +24,7 @@ Requirements:
 |6.1.4 15217-0 -<br> 6.2 23739-2  | :heavy_check_mark:  | 26e42e43b393811c176d<br>ac651efc5d61e4569305 | 511dec657daa60b0f11d<br>a20295e2c665ba2c749c | [Link](../../raw/master/synocodectool/original/synocodectool.6.1.4-15217-0_6.2-23739-2.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.6.1.4-15217-0_6.2-23739-2.patch) |
 |6.2.1 23824-0 -<br> 6.2.3 25426-3| :heavy_check_mark:  | 1d01ee38211f21c67a43<br>11f90315568b3fa530e6 | 93067026c251b100e278<br>05a8b4b9d8f0ae8e291c | [Link](../../raw/master/synocodectool/original/synocodectool.6.2.1-23824-0_6.2.3-25426-3.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.6.2.1-23824-0_6.2.3-25426-3.patch) |
 |7.0.1 42216-0 -<br> 7.0.1 42218-3| :heavy_check_mark:  | c2f07f4cebf0bfb63e3c<br>a38f811fd5b6112a797e | 873749b00e1624df4b01<br>335e0b69102acc185eb9 | [Link](../../raw/master/synocodectool/original/synocodectool.7.0.1-42216-0_7.0.1-42218-3.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.0.1-42216-0_7.0.1-42218-3.patch) |
-|7.1 42661-0 -<br> 7.1 42661-0| :warning:  | 22445f5b0d8b6714954b<br>50930c47b8805cf32b98 | 3a5ed18dc41ff243f348<br>1b6e3cf4770651df0b54 | [Link](../../raw/master/synocodectool/original/synocodectool.7.1-42661-0_7.1-42661-0.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.1-42661-0_7.1-42661-0.patch) |
+|7.1 42661-0 -<br> 7.1 42661-0| :warning:  | 796ac7fab2dcad7978a0<br>e8ae48abc9150aba916c | 06d543b2aab5ea73600c<br>a96497febdad96dc7864 | [Link](../../raw/master/synocodectool/original/synocodectool.7.1-42661-0_7.1-42661-0.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.1-42661-0_7.1-42661-0.patch) |
 
 :warning: : Not tested yet
 
