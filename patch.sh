@@ -277,11 +277,14 @@ patch () {
                 if [ ! -e "$conf_path/$conf_file" ] ; then
                     mkdir -p $conf_path
                     echo "$conf_string" > "$conf_path/$conf_file"
+                    chattr +i "$conf_path/$conf_file"
                     echo "Spoofed activation.conf created successfully"
                     exit 0
                     else
+                    chattr -i "$conf_path/$conf_file"
                     rm "$conf_path/$conf_file"
                     echo "$conf_string" > "$conf_path/$conf_file"
+                    chattr +i "$conf_path/$conf_file"
                     echo "Spoofed activation.conf created successfully"
                     exit 0
                 fi
@@ -304,11 +307,14 @@ patch () {
             if [ ! -e "$conf_path/$conf_file" ] ; then
                 mkdir -p $conf_path
                 echo "$conf_string" > "$conf_path/$conf_file"
+                chattr +i "$conf_path/$conf_file"
                 echo "Spoofed activation.conf created successfully"
                 exit 0
             else
+                chattr -i "$conf_path/$conf_file"
                 rm "$conf_path/$conf_file"
                 echo "$conf_string" > "$conf_path/$conf_file"
+                chattr +i "$conf_path/$conf_file"
                 echo "Spoofed activation.conf created successfully"
                 exit 0
             fi
