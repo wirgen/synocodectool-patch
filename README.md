@@ -1,16 +1,14 @@
 # synocodectool-patch
 
-![GitHub last commit](https://img.shields.io/github/last-commit/dmc31a42/synocodectool-patch)
+![GitHub last commit](https://img.shields.io/github/last-commit/wirgen/synocodectool-patch)
 
 This patch enables transcoding on Synologys DiskStation Manager 6+ without a valid serial number.
 The structure is loosely based on https://github.com/keylase/nvidia-patch
 
-
-
-Requirements:
+### Requirements:
 - DiskStation Manager 6 or higher
 - Your serial number ***must*** be in the proper format (e.g. XXXXPDNXXXXXX for DS918+, XXXXODNXXXXXX for DS3617xs, XXXXLWNXXXXXX for 3615xs)
-- x86-64 based 
+- x86-64 based
 - SSH/Terminal Access
 - sudo/root
 
@@ -26,6 +24,7 @@ Requirements:
 |7.0.1 42216-0 -<br> 7.0.1 42218-3| :heavy_check_mark:  | c2f07f4cebf0bfb63e3c<br>a38f811fd5b6112a797e | 873749b00e1624df4b01<br>335e0b69102acc185eb9 | [Link](../../raw/master/synocodectool/original/synocodectool.7.0.1-42216-0_7.0.1-42218-3.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.0.1-42216-0_7.0.1-42218-3.patch) |
 |7.1 42661-0 -<br> 7.1 42661-4| :heavy_check_mark: | 796ac7fab2dcad7978a0<br>e8ae48abc9150aba916c | 06d543b2aab5ea73600c<br>a96497febdad96dc7864 | [Link](../../raw/master/synocodectool/original/synocodectool.7.1-42661-0_7.1-42661-0.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.1-42661-0_7.1-42661-0.patch) |
 |7.1 42661-0 -<br> 7.1 42661-4<br>(CodecPack)| :heavy_check_mark:  | 22445f5b0d8b6714954b<br>50930c47b8805cf32b98 | 3a5ed18dc41ff243f348<br>1b6e3cf4770651df0b54 | [Link](../../raw/master/synocodectool/original/synocodectool.7.1-42661-0_7.1-42661-0.CodecPack.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.1-42661-0_7.1-42661-0.CodecPack.patch) |
+|7.1.1-42962-0<br>7.1.1-42962-2| :warning: | 18461b62813166652fd6<br>4a96e06237fde81925f7 | 4bfa2a72da607752435e<br>432545f98f1a0b3815a8 | [Link](../../raw/master/synocodectool/original/synocodectool.7.1.1-42962-2.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.1.1-42962-2.patch) |
 
 :warning: : Not tested yet
 
@@ -71,6 +70,6 @@ sudo ./patch.sh -p
 If something goes horribly wrong restoring the original file is possible
 
 ```bash
-bash ./patch.sh -r
+sudo ./patch.sh -r
 ```
  
