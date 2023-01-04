@@ -46,13 +46,11 @@ DESCRIPTION
 
 ## Manual
 
-Examples are provided for DSM Version 7.1 42661-4
-
 ### Downloading and making script executable
 
 
 ```bash
-wget https://raw.githubusercontent.com/apriliars3/synocodectool-patch/master/patch.sh
+wget https://raw.githubusercontent.com/wirgen/synocodectool-patch/master/patch.sh
 chmod +x patch.sh
 ```
 
