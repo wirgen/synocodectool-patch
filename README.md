@@ -26,7 +26,7 @@ The structure is loosely based on https://github.com/keylase/nvidia-patch
 |7.1 42661-0 -<br>7.1 42661-4<br>(CodecPack)| :heavy_check_mark: | 22445f5b0d8b6714954b50930c47b8805cf32b98 <br> 3a5ed18dc41ff243f3481b6e3cf4770651df0b54 | [Link](../../raw/master/synocodectool/original/synocodectool.7.1-42661-0_7.1-42661-0.CodecPack.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.1-42661-0_7.1-42661-0.CodecPack.patch) |
 |7.1.1 42962-0 -<br>7.1.1 42962-6| :heavy_check_mark: | 18461b62813166652fd64a96e06237fde81925f7 <br> 4bfa2a72da607752435e432545f98f1a0b3815a8 | [Link](../../raw/master/synocodectool/original/synocodectool.7.1.1-42962-2.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.1.1-42962-2.patch) |
 |7.2 64570-0 -<br>7.2 64570-1| :heavy_check_mark: | d316d5b2b080346b4bc197ad5ad7994ac043a15d <br> 8ffe49d91dc0fcd3268ff1afcbc9132d1ae634d1 | [Link](../../raw/master/synocodectool/original/synocodectool.7.2-64570-0.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.2-64570-0.patch) |
-|7.2.1 69057-0 -<br>7.2.1 69057-1| :heavy_check_mark: | a205aa337d808213cf6d4d839b035cde0237b424 <br> 1f4491bf5f27f0719ddebdcab6ff4eff56c64b2c | [Link](../../raw/master/synocodectool/original/synocodectool.7.2.1-69057-0.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.2.1-69057-0.patch) |
+|7.2.1 69057-0 -<br>7.2.1 69057-3| :heavy_check_mark: | a205aa337d808213cf6d4d839b035cde0237b424 <br> 1f4491bf5f27f0719ddebdcab6ff4eff56c64b2c | [Link](../../raw/master/synocodectool/original/synocodectool.7.2.1-69057-0.original) | [Link](../../raw/master/synocodectool/patch/synocodectool.7.2.1-69057-0.patch) |
 
 :warning: : Not tested yet
 
