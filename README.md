@@ -1,5 +1,7 @@
 # synocodectool-patch
 
+**[Repository has been discontinued!](https://github.com/wirgen/synocodectool-patch/pull/16)**
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/wirgen/synocodectool-patch)
 
 This patch enables transcoding on Synologys DiskStation Manager 6+ without a valid serial number.
